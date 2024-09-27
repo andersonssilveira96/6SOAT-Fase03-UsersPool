@@ -1,9 +1,11 @@
 name: Terraform AWS Cognito
 
 on:
-  pull_request:
+ pull_request:
+    types:
+      - closed
     branches:
-      - master
+      - master  
 
 jobs:
   terraform:
