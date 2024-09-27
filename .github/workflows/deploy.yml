@@ -1,7 +1,7 @@
 name: Terraform AWS Cognito
 
 on:
-  push:
+  pull_request:
     branches:
       - master
 
